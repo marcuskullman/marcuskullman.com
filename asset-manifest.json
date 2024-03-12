@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/marcuskullman.com/static/css/main.7e43fea6.css",
-    "main.js": "/marcuskullman.com/static/js/main.e002d79a.js",
-    "static/media/impact.woff": "/marcuskullman.com/static/media/impact.8a938c0f51348b56e9f3.woff",
-    "static/media/impact.woff2": "/marcuskullman.com/static/media/impact.e89475403f50c3876f0b.woff2",
-    "index.html": "/marcuskullman.com/index.html",
-    "main.7e43fea6.css.map": "/marcuskullman.com/static/css/main.7e43fea6.css.map",
-    "main.e002d79a.js.map": "/marcuskullman.com/static/js/main.e002d79a.js.map"
+    "main.css": "/static/css/main.0dd0da32.css",
+    "main.js": "/static/js/main.e002d79a.js",
+    "static/media/impact.woff": "/static/media/impact.8a938c0f51348b56e9f3.woff",
+    "static/media/impact.woff2": "/static/media/impact.e89475403f50c3876f0b.woff2",
+    "index.html": "/index.html",
+    "main.0dd0da32.css.map": "/static/css/main.0dd0da32.css.map",
+    "main.e002d79a.js.map": "/static/js/main.e002d79a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e43fea6.css",
+    "static/css/main.0dd0da32.css",
     "static/js/main.e002d79a.js"
   ]
 }
