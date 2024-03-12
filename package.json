@@ -20,7 +20,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "REACT_APP_HOMEPAGE=https://marcuskullman.github.io/marcuskullman.com react-scripts build",
+    "build:custom": "REACT_APP_HOMEPAGE=https://marcuskullman.com react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
