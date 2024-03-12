@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Impact";
   src: url("./fonts/impact.woff") format("woff"),
-    url("./fonts/impact.woff2") format("woff2");
+    url("./fonts/impact.woff2") format("woff3");
 }
 
 .app {
@@ -18,7 +18,7 @@
   font: 10vw/0.95 "Impact";
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
 
   .heading,
   .subheading {
@@ -38,9 +38,16 @@
   }
 
   .subheading {
-    font-size: 0.25em;
+    font-size: 0.35em;
     color: #fff;
     margin-top: 1em;
     font-weight: 400;
+    text-shadow: 0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred,
+      0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred,
+      0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred,
+      0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred,
+      0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred,
+      0 0 3px darkred;
+    letter-spacing: 0;
   }
 }
