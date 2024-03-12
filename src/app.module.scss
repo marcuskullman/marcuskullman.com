@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Mono";
-  src: url("./fonts/ABCMonumentGroteskSemi-Mono-Regular.woff") format("woff"),
-    url("./fonts/ABCMonumentGroteskSemi-Mono-Regular.woff2") format("woff2");
+  font-family: "Impact";
+  src: url("./fonts/impact.woff") format("woff"),
+    url("./fonts/impact.woff2") format("woff2");
 }
 
 .app {
@@ -14,15 +14,33 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-color: #f0f0f0;
-  font: 9px/14px "Mono";
-  color: #111;
+  background-color: #161616;
+  font: 10vw/0.95 "Impact";
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.05em;
 
-  .link {
-    color: inherit;
+  .heading,
+  .subheading {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 400;
+  }
 
-    &:hover {
-      color: #777;
-    }
+  .heading {
+    color: darkred;
+    text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+      0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+      0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+      0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
+      0 0 3px #fff;
+  }
+
+  .subheading {
+    font-size: 0.25em;
+    color: #fff;
+    margin-top: 1em;
+    font-weight: 400;
   }
 }

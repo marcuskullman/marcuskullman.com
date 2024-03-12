@@ -3,14 +3,16 @@ import styles from "./app.module.scss"
 export default function App() {
   return (
     <div className={styles.app}>
-      <p>
-        Design and development of websites, identities, books, packaging, etc.
-        <br />
-        Based in Stockholm, Östermalm.{" "}
-        <a href="mailto:nicklas@nicklaskullman.se" className={styles.link}>
-          nicklas(at)nicklaskullman.se
-        </a>
-      </p>
+      <div>
+        <h1 className={styles.heading}>
+          Marcus
+          <br />
+          Kullman
+        </h1>
+        <h2 className={styles.subheading}>
+          Interface development & Interactive design
+        </h2>
+      </div>
     </div>
   )
 }
