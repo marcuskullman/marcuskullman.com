@@ -18,7 +18,6 @@
   font: 10vw/0.95 "Impact";
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
-  letter-spacing: 0.03em;
 
   .heading,
   .subheading {
@@ -42,12 +41,11 @@
     color: #fff;
     margin-top: 1em;
     font-weight: 400;
-    text-shadow: 0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred,
-      0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred,
-      0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred,
-      0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred,
-      0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred, 0 0 3px darkred,
-      0 0 3px darkred;
-    letter-spacing: 0;
+    text-shadow: 0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred,
+      0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred,
+      0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred,
+      0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred,
+      0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred,
+      0 0 2px darkred;
   }
 }
