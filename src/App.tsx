@@ -10,7 +10,7 @@ export default function App() {
           Kullman
         </h1>
         <h2 className={styles.subheading}>
-          Interface development & Interactive design
+          Interface development & interaction design
         </h2>
       </div>
     </div>
