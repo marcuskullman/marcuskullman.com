@@ -8,6 +8,7 @@ export default function App() {
         consultant.
         <br />
         Ecommerce entrepreneur, writer, and photographer.
+        <br />
         <a href="mailto:marcus@marcuskullman.com" className={styles.link}>
           marcus@marcuskullman.com
         </a>
