@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Impact";
-  src: url("./fonts/impact.woff") format("woff"),
-    url("./fonts/impact.woff2") format("woff3");
+  font-family: "Mono";
+  src: url("./fonts/ABCMonumentGroteskSemi-Mono-Regular.woff") format("woff"),
+    url("./fonts/ABCMonumentGroteskSemi-Mono-Regular.woff2") format("woff2");
 }
 
 .app {
@@ -14,38 +14,16 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-color: #161616;
-  font: 10vw/0.95 "Impact";
-  text-transform: uppercase;
-  -webkit-font-smoothing: antialiased;
+  background-color: #f8f8f8;
+  font: 10px/15px "Mono";
+  color: #111;
 
-  .heading,
-  .subheading {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-weight: 400;
-  }
+  .link {
+    color: inherit;
+    text-decoration: none;
 
-  .heading {
-    color: darkred;
-    text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
-      0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
-      0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
-      0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff,
-      0 0 3px #fff;
-  }
-
-  .subheading {
-    font-size: 0.35em;
-    color: #fff;
-    margin-top: 1em;
-    font-weight: 400;
-    text-shadow: 0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred,
-      0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred,
-      0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred,
-      0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred,
-      0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred, 0 0 2px darkred,
-      0 0 2px darkred;
+    &:hover {
+      color: #777;
+    }
   }
 }
