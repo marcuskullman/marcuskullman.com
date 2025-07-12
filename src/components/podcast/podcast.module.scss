@@ -14,6 +14,21 @@
   justify-content: center;
   text-decoration: none;
 
+  .links {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 8px;
+    font-family: "TikTok Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0, "wdth" 100;
+    display: block;
+    margin-top: 24px;
+    color: $white;
+  }
+
   .figure {
     position: relative;
     z-index: 3;
@@ -54,5 +69,9 @@
       z-index: 1;
       opacity: 0.15;
     }
+  }
+
+  .link {
+    color: $white;
   }
 }
