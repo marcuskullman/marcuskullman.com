@@ -12,11 +12,15 @@ export const Podcast: FC = () => {
           alt="Marcus Kullman Podcast"
         />
         <div className={styles.links}>
+          <p className={styles.description}>
+            Frilansande gränssnittsutvecklare, interaktionsdesigner, fotograf &
+            författare.
+          </p>
           <a
             href="https://open.spotify.com/show/2JjIvkufqT8WGaggtlHOy9?si=30d85af9c45f483f"
             className={styles.link}
           >
-            Lyssna på Spotify
+            Podcast
           </a>
           {" | "}
           <a
@@ -25,14 +29,14 @@ export const Podcast: FC = () => {
           >
             ChatGPT-avatar
           </a>
+          {" | "}
+          <a href="https://x.com/marcuskallman" className={styles.link}>
+            Profil på X
+          </a>
         </div>
       </figure>
       <div className={styles.vignette}>
-        <img
-          src={Banner}
-          className={styles.image2}
-          alt="Marcus Kullman Podcast"
-        />
+        <img src={Banner} className={styles.image2} alt="" />
       </div>
     </div>
   )
