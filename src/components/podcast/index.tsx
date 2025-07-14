@@ -12,10 +12,7 @@ export const Podcast: FC = () => {
           alt="Marcus Kullman Podcast"
         />
         <div className={styles.links}>
-          <p className={styles.description}>
-            Frilansande gränssnittsutvecklare, interaktionsdesigner, fotograf &
-            författare.
-          </p>
+          <p className={styles.description}>marcus@marcuskullman.com</p>
           <a
             href="https://open.spotify.com/show/2JjIvkufqT8WGaggtlHOy9?si=30d85af9c45f483f"
             className={styles.link}
