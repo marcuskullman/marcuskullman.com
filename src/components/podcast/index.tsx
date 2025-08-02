@@ -27,8 +27,8 @@ export const Podcast: FC = () => {
             ChatGPT-avatar
           </a>
           {" | "}
-          <a href="https://x.com/marcuskullman" className={styles.link}>
-            Profil på X
+          <a href="https://www.bokaro.se" className={styles.link}>
+            Min bokhandel
           </a>
         </div>
       </figure>
